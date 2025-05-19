@@ -1,0 +1,42 @@
+{
+  "name": "ebook-reader-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.2.0",
+    "esbuild": "^0.24.2",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.9.155",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build-es": "esbuild src/index.js --bundle --sourcemap --outfile=__bundle/book-reader-bundle.js --loader:.js=jsx --format=cjs"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "web-vitals": "^4.2.4"
+  }
+}
