@@ -11,4 +11,21 @@ Although the SPDULA project is php (5.3.3) based, the E-book reader is built usi
 5. There are both **single** and **double page** layouts.
 6. The reader can be changed to **full-screen mode**.
 7. The page can be zoomed for upto `250%`.
-8. Sample book opened in E-book reader: https://dulis.library.du.ac.bd/index.php?eBook=536195.pdf
+8. A The book-reader can be viewd in [this link](https://dulis.library.du.ac.bd/index.php?eBook=536195.pdf).
+
+### Sample Screenshots
+
+**Complete Screenshot**
+![Complete Screenshot](public/ss/demo/full-ss.png)
+
+**Single Page Layout**
+![Single Page Layout](public/ss/demo/single-page.png)
+
+**Dual-page Layout**
+![Dual-page Layout](public/ss/demo/double-page.png)
+
+**Full-screen Mode**
+![Full-screen Mode](public/ss/demo/full-screen.png)
+
+**Page Zoomed In**
+![Page Zoomed In](public/ss/demo/zoomed-in.png)
